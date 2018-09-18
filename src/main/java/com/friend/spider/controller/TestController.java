@@ -15,7 +15,7 @@ public class TestController {
 
     @GetMapping("")
     public String home(){
-        return "探活";
+        return "探活!!!";
     }
 
 }
