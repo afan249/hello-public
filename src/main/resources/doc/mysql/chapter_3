@@ -14,3 +14,11 @@
    哈希索引
    空间索引
    全文索引
+5.如何有效的使用索引
+   隔离列   ----   select * from user where age + 1 = 30  不使用索引
+   前缀索引与索引选择性
+6.当使用缓存表或者是统计表的时候，你需要觉得是否要进行实时数据维护或者周期性重建
+7.使用影子表
+  drop table if exists my_summary_new,my_summary_old;
+  create table my_summary_new like my_summary;
+  rename table my_summary to my_summary_old,my_summary_new to my_aummary;
