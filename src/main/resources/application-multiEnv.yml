@@ -1,0 +1,14 @@
+spring:
+  #多数据源
+  datasource:
+    lib-a:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1/a?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&autoReconnect=true
+      username: fyc
+      password: 123456
+    lib-b:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1/b?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&autoReconnect=true
+      userName: fyc
+      password: 123456
+
