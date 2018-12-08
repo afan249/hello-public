@@ -1,0 +1,1 @@
+package com.friend.spider.lnn.Part5;public class Manager {}
