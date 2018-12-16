@@ -1,4 +1,4 @@
-package com.friend.spider.lnn.Part4;
+package com.friend.spider.lnn.CoreJava.chapter04;
 
 import java.time.LocalDate;
 
@@ -9,7 +9,7 @@ public class Employee {
 
     /*
      定义为final，说明name不会再被修改，即没有setName方法
-      */
+    */
     private final String name;
     private double salary;
     // alt + Enter 自动导入import

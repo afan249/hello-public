@@ -1,0 +1,1 @@
+package com.friend.spider.lnn.DesignMode.observer;/** * */public class ConcreteObserver implements Observer {    //观察者的状态    private String observerState;    /**     * 获取目标类的状态同步到观察者的状态中     */    @Override    public void update(Subject subject) {        //使目标状态和观察者状态保持一致        observerState = ((ConcreteSubject)subject).getSubjectState();    }}

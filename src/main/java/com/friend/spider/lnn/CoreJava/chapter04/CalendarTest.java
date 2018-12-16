@@ -1,7 +1,8 @@
-package com.friend.spider.lnn.Part4;
+package com.friend.spider.lnn.CoreJava.chapter04;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.util.Calendar;
 
 /**
  * 输出当月日历
@@ -24,6 +25,8 @@ public class CalendarTest {
     public static void main(String[] args){
 
         LocalDate date = LocalDate.now();
+
+        Calendar cal = Calendar.getInstance();
         int month = date.getMonthValue();
         int today = date.getDayOfMonth();
 

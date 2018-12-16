@@ -1,4 +1,4 @@
-package com.friend.spider.lnn.Part4;
+package com.friend.spider.lnn.CoreJava.chapter04;
 
 /**
  * Employee测试方法

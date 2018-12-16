@@ -1,0 +1,1 @@
+package com.friend.spider.lnn.CoreJava.chapter05;public class Manager {    public static void main(String[] args) {        StaticTest st = new StaticTest();        StaticTest st1 = new StaticTest();        int a = st.i++;        int b = st1.i;        StaticTest.i++;        System.out.println(b);    }}class StaticTest{    public static int i = 47;}
